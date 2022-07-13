@@ -5,5 +5,5 @@
 * Customwer Name, City, State: If I input 'ô' -> It show message 'Numbers are not allowed' althought I just input aphabet
 * Address: If I input 'Lê Lợi 22 #' -> It show warning 'Special characters are not allowed', then I remove '#' -> It still shows warning
 - Note: 
-See code in master branch
+See code in master branch.
 Thanks.
