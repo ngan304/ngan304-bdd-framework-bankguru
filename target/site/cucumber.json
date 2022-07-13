@@ -1,0 +1,518 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Register",
+        "description": "",
+        "id": "01-register;register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19639886500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open register page",
+            "match": {
+              "location": "RegisterStep.openRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251223900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Input Email textbox",
+            "match": {
+              "location": "RegisterStep.inputEmailTextbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1927707800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Submit button",
+            "match": {
+              "location": "RegisterStep.clickSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250338700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Get User and Password infor",
+            "match": {
+              "location": "RegisterStep.getUserAndPasswordInfor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1207390200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Page",
+            "match": {
+              "location": "RegisterStep.closePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag_01_register"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "New Customer can be created",
+        "description": "",
+        "id": "01-register;new-customer-can-be-created;new-customer-infor;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10516330700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Go to Login page",
+            "match": {
+              "location": "CreateNewCustmerSteps.goToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3974160000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Submit valid info on login form",
+            "match": {
+              "location": "CreateNewCustmerSteps.submitValidInfoOnLoginForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5148435600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open New Customer Page",
+            "match": {
+              "location": "CreateNewCustmerSteps.openNewCustomerPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139502000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Input Name textbox with \"Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 25
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputNameTextboxWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286203000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select female for Genger",
+            "match": {
+              "location": "CreateNewCustmerSteps.selectFemaleForGenger()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117601300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Input DoB textbox with \"2022-07-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-07-13",
+                  "offset": 24
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputDoBTextboxWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143197700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Input Address textbox with \"Linh Trung\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Linh Trung",
+                  "offset": 28
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputAddressTextboxWith(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158866900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input City textbox with \"Ho Chi Min\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ho Chi Min",
+                  "offset": 25
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputCityTextboxWith(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107544600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Input State textbox with \"Thao Dien\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thao Dien",
+                  "offset": 26
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputStateTextboxWith(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90013600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Input Pin textbox with \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 24
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputPinTextboxWith(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109659400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Input Mobile textbox with \"0342335612\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0342335612",
+                  "offset": 27
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputMobileTextboxWith(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257182800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Input to Email textbox",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputToEmailTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124331000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Input Password textbox with \"Password#123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password#123",
+                  "offset": 29
+                }
+              ],
+              "location": "CreateNewCustmerSteps.inputPasswordTextboxWith(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009196800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click Submit button to create new Customer",
+            "match": {
+              "location": "CreateNewCustmerSteps.clickSubmitButtonToCreateNewCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161468500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify showing sucessfull message",
+            "match": {
+              "location": "CreateNewCustmerSteps.verifyShowingSucessfullMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79964900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Get CustomerID",
+            "match": {
+              "location": "CreateNewCustmerSteps.getCustomerID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 727440800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on New Account link",
+            "match": {
+              "location": "CreateNewCustmerSteps.clickOnNewAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126540800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Input CustomerID",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputCustomerID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134669700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input Initial deposit",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputInitialDeposit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2239683200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click Submit to create New accout",
+            "match": {
+              "location": "CreateNewCustmerSteps.clickSubmitToCreateNewAccout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104768400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify create account successfull",
+            "match": {
+              "location": "CreateNewCustmerSteps.verifyCreateAccountSuccessfull()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1020540700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Open Deposit Page",
+            "match": {
+              "location": "CreateNewCustmerSteps.openDepositPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192127800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Input Account No text box",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputAccountNoTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139406500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Input Amount textbox",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputAmountTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150065100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Input Description textbox",
+            "match": {
+              "location": "CreateNewCustmerSteps.inputDescriptionTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698950000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click on Submit button to deposit",
+            "match": {
+              "location": "CreateNewCustmerSteps.clickOnSubmitButtonToDeposit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify depoist successfully",
+            "match": {
+              "location": "CreateNewCustmerSteps.verifyDepoistSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1066579000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close page",
+            "match": {
+              "location": "CreateNewCustmerSteps.closePage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@new_customer"
+          }
+        ]
+      }
+    ],
+    "name": "01_Register",
+    "description": "",
+    "id": "01-register",
+    "keyword": "Feature",
+    "uri": "bankGuru.feature"
+  }
+]
