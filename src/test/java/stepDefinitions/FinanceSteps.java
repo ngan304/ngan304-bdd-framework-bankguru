@@ -16,7 +16,7 @@ import pageObjects_Bankguru.HomePO;
 import pageObjects_Bankguru.LoginPO;
 import pageObjects_Bankguru.NewCustomerPO;
 
-public class CreateNewCustmerSteps {
+public class FinanceSteps {
 	WebDriver driver;
 	LoginPO loginPage;
 	HomePO homePage;
